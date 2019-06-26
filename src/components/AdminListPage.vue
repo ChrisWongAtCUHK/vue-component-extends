@@ -1,4 +1,9 @@
 <!-- 管理员列表的具体组件 -->
+<template slot="filter-slot">
+  <div slot="filter-slot">
+    other input filter
+  </div>
+</template>
 <script type="text/javascript">
 import ListPageAbstract from './ListPageAbstract'
 // 模拟ajax请求
