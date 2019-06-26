@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <AdminListPage />
+    <UserListPage />
   </div>
 </template>
 
 <script>
-import AdminListPage from './components/AdminListPage.vue'
+import UserListPage from './components/UserListPage.vue'
 
 export default {
   name: 'app',
   components: {
-    AdminListPage
+    UserListPage
   }
 }
 </script>
